@@ -1,0 +1,13 @@
+Dark Mode
+    --Color-Amarillo:#fffb49;
+    --Color-Verde:#b0ff47;
+    --Color-Negro: #192207; /*Fondo de la pagina*/
+    --Color-Gris:#878678;
+    --Color-Blanco:#fffaf2;
+
+Sun Mode
+    --Color-Celdas:#ff2d52;
+    --Color-Boton: #ff7834;
+    --Color-Texto: #192207; 
+    --Color-Boton-hover:#ffc24c;
+    --Color-Fondo:#effed3;

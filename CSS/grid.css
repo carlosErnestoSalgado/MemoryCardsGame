@@ -1,0 +1,40 @@
+:root{
+    /* Paleta modo claro */
+    --Color-Celdas:#ff2d52;
+    --Color-Boton: #ff7834;
+    --Color-Texto: #192207; 
+    --Color-Boton-hover:#ffc24c;
+    --Color-Fondo:#effed3;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+
+
+}
+.Primer, .Tercer,
+.Cuarto, .Quinto, 
+.Segundo, .Sexto,
+.Septimo, .Octavo,
+.Noveno, .Decimo,
+.Onceno, .Doceno,
+.Trece, .Catorce,
+.Quince, .Diezseis{
+    background-color:var(--Color-Celdas);
+    color: #fff;
+    border-radius: 4px;
+    grid-column: span 1;
+    height: 105px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+

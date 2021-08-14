@@ -1,0 +1,85 @@
+:root{
+    --Color-Celdas:#ff2d52;
+    --Color-Boton: #ff7834;
+    --Color-Texto: #192207; 
+    --Color-Boton-hover:#ffc24c;
+    --Color-Fondo:#effed3;
+    --Color-Icono:#ACAFA5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--Color-Fondo);
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: var(--Color-Texto);
+}
+.container > div > img{
+    width: 50px;
+    display: none;
+    transition: 300ms ease-in;
+}
+.container > div .deFrente{
+    transition: 500ms ease-in-out;
+}
+
+footer{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--Color-Boton);
+    font-weight: bold;
+}
+footer button:hover{
+    background-color: var(--Color-Boton-hover);
+}
+h1{
+    color: var(--Color-Texto);
+    text-align: center;
+    display: block;
+    margin: 70px 0px;
+}
+i{
+    display: block;
+    padding: 20px;
+    font-size: 50px;
+    color: var(--Color-Icono);
+}
+
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--Color-Boton);
+    font-size: 50px;
+}
+main button:hover{
+    background-color: var(--Color-Boton-hover);
+}
